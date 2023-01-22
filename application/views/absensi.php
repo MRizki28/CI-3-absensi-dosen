@@ -30,7 +30,7 @@
 
                 <div class="card-footer">
                     <input type="submit" class="btn btn-primary btn-sm" name="save" value="Save" />
-                    <a class="btn btn-secondary btn-sm" href="<?php echo site_url('coffe_controller/index') ?>" role="button">Kembali</a>
+                    <a class="btn btn-secondary btn-sm" href="<?php echo site_url('admin/index') ?>" role="button">Kembali</a>
                 </div>
             </form>
         </div>
