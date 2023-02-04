@@ -8,7 +8,7 @@
 
                     <div class="form-group">
                         <label for="id_dosen">Nama Dosen</label>
-                        <select class="form-control" id="id_dosen" name="id_dosen">
+                        <select class="form-control" id="id_dosen" name="id_dosen" required>
                             <?php foreach ($dosens as $abs) { ?>
                                 <option value="<?php echo $prd[$abs['id']] = $abs['id'] ?>"><?php echo $prd[$abs['id']] = $abs['nama_dosen'] ?></option>
                             <?php } ?>
@@ -20,7 +20,7 @@
 
                 <div class="form-group">
                     <label for="keterangan">Keterangan</label>
-                    <select class="form-control" id="keterangan" name="keterangan">
+                    <select class="form-control" id="keterangan" name="keterangan" required>
                         <option>Hadir</option>
                         <option>Tidak Hadir</option>
                     </select>
