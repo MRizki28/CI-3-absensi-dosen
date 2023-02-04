@@ -36,8 +36,8 @@ class absensi_controller extends CI_Controller {
     public function simpan()
     {
         $this->load->library('form_validation');
-        $this->form_validation->set_rules('id_dosen','id absensi','');
-        $this->form_validation->set_rules('id_absensi','id absensi','');
+        $this->form_validation->set_rules('id_dosen','id dosen','required');
+        $this->form_validation->set_rules('id_absensi','id absensi','required');
         $this->form_validation->set_rules('keterangan','keterangan','required');
 
         if ($this->form_validation->run()) {
