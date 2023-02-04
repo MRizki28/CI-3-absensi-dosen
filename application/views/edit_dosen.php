@@ -82,7 +82,6 @@
 
             <nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
                 <div class="navbar-menu-wrapper d-flex align-items-stretch justify-content-between">
-                    <a class="navbar-brand brand-logo-mini align-self-center d-lg-none" href="index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
                     <button class="navbar-toggler navbar-toggler align-self-center mr-2" type="button" data-toggle="minimize">
                         <i class="mdi mdi-menu"></i>
                     </button>
@@ -132,12 +131,12 @@
                                         <form action="<?php echo site_url('dosen_controller/update_dosen_db'); ?>" method="post" class="forms-sample">
                                             <div class="form-group">
                                                 <label for="nama_dosen">Nama</label>
-                                                <input type="text" class="form-control" id="nama_dosen" name="nama_dosen" value="<?php echo $detail->nama_dosen; ?>" placeholder="Nama" />
-                                                <div class="col-12 col-md-9"><input type="hidden" id="id" name="id" value="<?php echo $detail->id; ?>" class="form-control"></div>
+                                                <input type="text" class="form-control" id="nama_dosen" name="nama_dosen" value="<?php echo $detail->nama_dosen; ?>" placeholder="Nama" required />
+                                                <div class="col-12 col-md-9"><input type="hidden" id="id" name="id" value="<?php echo $detail->id; ?>" class="form-control"  ></div>
                                             </div>
                                             <div class="form-group">
                                                 <label for="nama_dosen">Nidn</label>
-                                                <input type="number" class="form-control" id="nidn" name="nidn" value="<?php echo $detail->nidn; ?>" placeholder="NIDN" />
+                                                <input type="number" class="form-control" id="nidn" name="nidn" value="<?php echo $detail->nidn; ?>" placeholder="NIDN" required />
                                             </div>
 
                                             <div class="card-footer">
