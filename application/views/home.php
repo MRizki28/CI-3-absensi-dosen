@@ -21,7 +21,7 @@
   <div class="container-scroller">
     <nav class="sidebar sidebar-offcanvas" id="sidebar">
       <div class="text-center sidebar-brand-wrapper d-flex align-items-center">
-        <a class="sidebar-brand brand-logo" href="<?php echo site_url('admin/index')?>"><img src=<?php echo base_url('assets/images/logo.svg')?> alt="logo" /></a>
+        <a class="sidebar-brand brand-logo" href="<?php echo site_url('admin/index')?>"><img src="<?php echo base_url('assets/images/logo.svg')?>" alt="logo" /></a>
         <a class="sidebar-brand brand-logo-mini pl-4 pt-3" href="<?php echo site_url('admin/index')?>"><img src="<?php echo base_url('assets/images/logo-mini.svg')?>" alt="logo" /></a>
       </div><br><br>
       <ul class="nav">
@@ -82,7 +82,6 @@
 
       <nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
         <div class="navbar-menu-wrapper d-flex align-items-stretch justify-content-between">
-          <a class="navbar-brand brand-logo-mini align-self-center d-lg-none" href="<?php echo site_url('admin/index')?>"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
           <button class="navbar-toggler navbar-toggler align-self-center mr-2" type="button" data-toggle="minimize">
             <i class="mdi mdi-menu"></i>
           </button>
